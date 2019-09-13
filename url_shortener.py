@@ -23,10 +23,10 @@ index.write("<meta http-equiv=\"refresh\" content=\"0; URL=\'http://" + url_to_s
 
 index.close()
 
-os.system("git add .")
-os.system("git commit -m " + "\"shortening " + url_to_shorten + " to " + shortened_url + " \"")
-os.system("git push")
-# print(subprocess.check_output(["git", "add", "."]))
-# print(subprocess.check_output(["git", "commit", "-m", "\"shortening " + url_to_shorten + " to " + shortened_url + " \""]))
+print("doing some stuff....")
+
+os.system("git add . > /dev/null")
+os.system("git commit -m " + "\"shortening " + url_to_shorten + " to " + shortened_url + " \" > /dev/null")
+os.system("git push > /dev/null")
 
 print("url has been shortened to:", github_url + "/" + shortened_url)
