@@ -2,11 +2,13 @@ import subprocess
 import os
 from github_config import *
 
+example_url = github_url + "/this_right_here"
+
 
 print("what url do you want to shorten?")
 
-url_to_shorten = input("url:")
-shortened_url = input("shortened url:")
+url_to_shorten = input("url: http://")
+shortened_url = input("shortened url location " + example_url + ":")
 
 to_write = shortened_url + "/index.html"
 
@@ -17,7 +19,7 @@ os.mkdir(shortened_url)
 
 index = open(to_write, "w")
 
-index.write("<meta http-equiv=\"refresh\" content=\"0; URL=\'" + url_to_shorten + "\'\" />")
+index.write("<meta http-equiv=\"refresh\" content=\"0; URL=\'http://" + url_to_shorten + "\'\" />")
 
 index.close()
 
