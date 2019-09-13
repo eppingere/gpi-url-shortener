@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 github_config.py
+.DS_Store
 
 # C extensions
 *.so
