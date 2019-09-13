@@ -7,8 +7,8 @@ example_url = github_url + "/this_right_here"
 
 print("what url do you want to shorten?")
 
-url_to_shorten = input("url: http://")
-shortened_url = input("shortened url location " + example_url + ":")
+url_to_shorten = input("url to be shortened: http(s)://")
+shortened_url = input("shorten to " + github_url + "/")
 
 to_write = shortened_url + "/index.html"
 

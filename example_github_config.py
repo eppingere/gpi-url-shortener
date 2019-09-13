@@ -1,1 +1,1 @@
-github_url = "eppi.ng/gpi-url-shortener"
+github_url = "https://eppi.ng/gpi-url-shortener"
