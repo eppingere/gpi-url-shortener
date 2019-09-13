@@ -26,6 +26,16 @@ shorten_url
 ```
 And you should be walked through the process of shortening a url.
 
+You should see something like this:
+
+```
+what url do you want to shorten?
+url: http://thebomb.com.gov.net
+shortened url location eppingere.github.io/gpi-url-shortener/this_is_what_i_want_to_use_as_my_short_url
+doing some stuff....
+url has been shortened to: eppingere.github.io/gpi-url-shortener/this_is_what_i_want_to_use_as_my_short_url
+```
+
 8. If you have a custom domain you want to use with your url shortener, you can set it up for the github repo by following the instructions [here](https://help.github.com/en/articles/using-a-custom-domain-with-github-pages).
 
 Have fun and let us know if you have any questions on piazza!!!
