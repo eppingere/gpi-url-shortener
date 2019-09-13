@@ -30,3 +30,4 @@ os.system("git commit -m " + "\"shortening " + url_to_shorten + " to " + shorten
 os.system("git push > /dev/null 2>&1")
 
 print("url has been shortened to:", github_url + "/" + shortened_url + "/")
+print("it might take ~5 mins for the link to become active")
