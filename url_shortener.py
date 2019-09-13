@@ -25,8 +25,8 @@ index.close()
 
 print("doing some stuff....")
 
-os.system("git add . > /dev/null")
-os.system("git commit -m " + "\"shortening " + url_to_shorten + " to " + shortened_url + " \" > /dev/null")
-os.system("git push > /dev/null")
+os.system("git add . > /dev/null 2>&1")
+os.system("git commit -m " + "\"shortening " + url_to_shorten + " to " + shortened_url + " \" > /dev/null 2>&1")
+os.system("git push > /dev/null 2>&1")
 
 print("url has been shortened to:", github_url + "/" + shortened_url)
