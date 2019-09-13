@@ -23,6 +23,7 @@ index.close()
 
 os.system("git add .")
 os.system("git commit -m " + "\"shortening " + url_to_shorten + " to " + shortened_url + " \"")
+os.system("git push")
 # print(subprocess.check_output(["git", "add", "."]))
 # print(subprocess.check_output(["git", "commit", "-m", "\"shortening " + url_to_shorten + " to " + shortened_url + " \""]))
 
