@@ -21,7 +21,7 @@ index.write("<meta http-equiv=\"refresh\" content=\"0; URL=\'" + url_to_shorten 
 
 index.close()
 
-subprocess.check_output(["git", "add", "."])
-subprocess.check_output(["git", "commit", "-m", "\"shortening " + url_to_shorten + " to " + shortened_url + " \""])
+print(subprocess.check_output(["git", "add", "."]))
+print(subprocess.check_output(["git", "commit", "-m", "\"shortening " + url_to_shorten + " to " + shortened_url + " \""]))
 
-print("url has been shortened to:", github_url + "/" + url_to_shorten)
+print("url has been shortened to:", github_url + "/" + shortened_url)
