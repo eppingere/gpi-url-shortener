@@ -10,7 +10,7 @@ Made for [CMU GPI](http://cs.cmu.edu/~07131)
 ```
 git clone git@github.com:[your github username]/gpi-url-shortener.git
 ```
-3. Rename the `example_github_config.py` to `github_config.py` and add your github username or custom github url in the file.
+3. Rename the `example_github_config.py` to `github_config.py`, add your github username or custom github url in the file, and put the absolute path to your repo. Remember that when inside the repo `pwd` can give you the current directory's absolute path.
 4. Make sure that you have ssh keys setup for your github. If you are not sure how to do this, you can follow [this tutorial](https://www.youtube.com/watch?v=H5qNpRGB7Qw).
 5. Add to your `.bashrc`, `.bash_profle`, `.zshrc`, etc. the following:
 
