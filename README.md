@@ -48,3 +48,5 @@ it might take ~5 mins for the link to become active
 Have fun and let us know if you have any questions on piazza!!!
 
 Don't forget to hit the quan and yell YEAAAAAHHHH DONNER :ok_hand: :ok_hand: :ok_hand: :ok_hand:
+
+![](hit-the-quan.gif) ![](donner.gif)
