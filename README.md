@@ -1,7 +1,7 @@
 # gpi-url-shortener
 A demo of how github can be made into a url shortener
 
-Made for [CMU GPI](http://cs.cmu.edu/~07131)
+Made for [CMU GPI](http://cs.cmu.edu/~07131) to help students learn git.
 
 # Getting started using your own url shortener
 
