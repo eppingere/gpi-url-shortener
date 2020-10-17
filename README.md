@@ -21,14 +21,19 @@ git clone https://github.com/[your github username]/gpi-url-shortener.git
 5. Add to your `.bashrc`, `.bash_profle`, `.zshrc`, etc. the following:
 
 ```
-alias shorten_url="python3 /absolute/path/to/gpi-url-shortener/url_shortener.py"
+shortenurl(){
+  current_dir=$(pwd)
+  cd /Users/ejeppinger/Documents/CMU/ta-gpi/gpi-url-shortener/
+  python3 url_shortener.py
+  cd $current_dir
+}
 ```
 Don't forget to re-`source` your `rc` file!!
 
 6. In the repository settings turn on ghpages from the master branch
 7. You're all set!! Simply from terminal run:
 ```
-shorten_url
+shortenurl
 ```
 And you should be walked through the process of shortening a url.
 
