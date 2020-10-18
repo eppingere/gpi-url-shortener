@@ -23,7 +23,7 @@ git clone https://github.com/[your github username]/gpi-url-shortener.git
 ```
 shortenurl(){
   current_dir=$(pwd)
-  cd /Users/ejeppinger/Documents/CMU/ta-gpi/gpi-url-shortener/
+  cd /ABSOLUTE/PATH/TO/gpi-url-shortener/
   python3 url_shortener.py
   cd $current_dir
 }
